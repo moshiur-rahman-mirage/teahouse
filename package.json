@@ -1,0 +1,16 @@
+{
+  "name": "teahouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^3.4.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
